@@ -1,0 +1,30 @@
+{
+  "name": "semantic-archive",
+  "version": "1.0.0",
+  "description": "Autonomous semantic knowledge graph and agentic ingestion pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "search": "node search.js",
+    "init-db": "node init-db.js"
+  },
+  "keywords": [
+    "rag",
+    "knowledge-graph",
+    "semantic-search",
+    "ollama",
+    "postgresql",
+    "redis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bullmq": "^5.35.4",
+    "pg": "^8.13.1",
+    "redis": "^4.7.0",
+    "ollama": "^0.5.13",
+    "archiver": "^7.0.1",
+    "chokidar": "^4.0.3",
+    "commander": "^12.1.0"
+  }
+}

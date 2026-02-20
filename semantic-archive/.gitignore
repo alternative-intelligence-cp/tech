@@ -1,0 +1,40 @@
+# .gitignore for semantic-archive
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+config.local.js
+
+# Ingest directory (processed files)
+ingest/
+*.zip
+
+# Archives
+archive/
+archives/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+test-*.md
+test-*.pdf
+test-*.docx
