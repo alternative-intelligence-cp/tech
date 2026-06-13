@@ -171,7 +171,7 @@ upx --best --lzma script.static -o script
 - Rescue/recovery environments
 - Containers (FROM scratch)
 - Older systems with different glibc versions
-- Custom Linux distributions (like AriaX)
+- Custom Linux distributions (like NitpickX)
 
 **No Dependency Hell**: Unlike Flatpak (500MB+ for simple apps) or Snap packages, these tools have:
 

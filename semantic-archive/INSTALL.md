@@ -92,7 +92,7 @@ mkdir -p ./ingest
 cat > ./ingest/test-doc.md << 'EOF'
 # Redis Connection Pooling Guide
 
-This document describes Redis connection pooling strategies for Aria applications.
+This document describes Redis connection pooling strategies for Nitpick applications.
 
 ## Key Concepts
 
@@ -102,11 +102,11 @@ This document describes Redis connection pooling strategies for Aria application
 
 ## Implementation
 
-The Aria Redis client uses connection pooling to prevent the ERR_TIMEOUT_99 error.
+The Nitpick Redis client uses connection pooling to prevent the ERR_TIMEOUT_99 error.
 
 Technologies used:
 - Redis
-- Aria
+- Nitpick
 - NodeJS
 
 EOF
@@ -157,7 +157,7 @@ Expected output:
 1. Redis Connection Pooling Guide (Score: 0.0724, Match: both)
    Type: TechSpec
    File: test-doc.md
-   Entities: Connection Pool, Redis, Aria, NodeJS
+   Entities: Connection Pool, Redis, Nitpick, NodeJS
    Summary: This document describes Redis connection pooling...
 ```
 
